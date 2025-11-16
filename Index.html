@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>classes</title>
+    </head>
+    <body>
+        <h2>JavaScript Class</h2>
+<p>How to use JavaScipt Class</p>
+        <p id="student1"></p>
+        <p id="Student2"></p>
+        <script>
+      class student {
+        constructor (name,year) {
+            this.name= name;
+            this.year= year;
+        }
+        age(){
+            let date = new Date();
+            return date.getFullYear() - this-year;
+        }
+      }
+      student1 = new student("Riya", 2013);
+      document.getElementById("Student1"). innerHTML = "My name is " + student1
+      name +"i born in"+ student1.year+ "my age is "+ student1. age();
+      student2 = new student("siya", 2024);
+      document.getElementById("Student2").innerHTML = "my name is " + student2.
+      name + " I born in " + student2.year * " My age" + student2. age()
+        </script>
+    </body>
+</html>
